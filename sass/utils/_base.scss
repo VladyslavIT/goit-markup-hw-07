@@ -1,0 +1,36 @@
+html {
+    box-sizing:border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: $primary-text-color;
+    background-color: $white;
+}
+h1,
+h2,
+h3,
+h4,h5,h6
+p,
+ul {
+ margin: 0;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto ;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.size-clr {
+    max-width: 1600px;
+    background-color: $backgroung-footer;
+}
